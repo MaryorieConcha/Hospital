@@ -1,11 +1,10 @@
 public class Persona {
-    private String nombre, apellido, rut;
+    private String nombre, apellido;
     private int edad;
 
-    public Persona (String nombre, String apellido, String rut, int edad){
+    public Persona (String nombre, String apellido, int edad){
         this.nombre = nombre;
         this.apellido = apellido;
-        this.rut = rut;
         this.edad = edad;
     }
 
@@ -15,10 +14,6 @@ public class Persona {
 
     public String getApellido() {
         return apellido;
-    }
-
-    public String getRut() {
-        return rut;
     }
 
     public int getEdad() {
