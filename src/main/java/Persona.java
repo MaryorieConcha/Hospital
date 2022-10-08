@@ -19,4 +19,9 @@ public class Persona {
     public int getEdad() {
         return edad;
     }
+
+    @Override
+    public String toString(){
+        return "nombre: "+this.nombre+", apellido: "+this.apellido+", edad: " +this.edad;
+    }
 }
